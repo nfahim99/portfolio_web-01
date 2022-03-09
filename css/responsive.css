@@ -1,0 +1,119 @@
+/* Extra large Device */
+@media(min-width:1200px) and (max-width:1399.98px) {}
+/*large Device */
+@media(min-width:992px) and (max-width:1199.98px) {
+    #banner .bannercontent h4 {
+        font-size: 25px;
+    }
+    #banner .bannercontent h1 {
+        font-size: 55px;
+        letter-spacing: 20px;
+    }
+    #banner .banner_item{
+        height: 550px;
+    }
+    #services .service_bg{
+        height: 100%;
+    }
+}
+/* Medium Device  */
+@media(min-width:768px) and (max-width:991.98px) {
+    #banner .bannercontent h4 {
+        font-size: 22px;
+    }
+    #banner .bannercontent h1 {
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    #banner .banner_item{
+        height: 450px;
+    }
+    #about .about_item:nth-child(2n){
+        border-color: transparent;
+    }
+    #banner .bannercontent a {
+        padding: 15px 15px;
+    }
+    #services{
+        background-image: initial;
+    }
+    #services:after{
+        background-color: initial;
+    }
+    #my_work .work_sec .work_overlay h4{
+        font-size: 20px;
+    }
+    #my_work .work_sec .work_overlay p{
+        font-size: 15px;
+    }
+}
+/* Small Device */
+@media(min-width:576px) and (max-width:767.98px) {
+    .sec_info h2{
+        font-size: 35px;
+    }
+    .sec_info p{
+        font-size: 12px;
+    }
+    #banner .bannercontent h4 {
+        font-size: 18px;
+    }
+    #banner .bannercontent h1 {
+        font-size: 42px;
+        letter-spacing: 10px;
+    }
+    #banner .banner_item{
+        height: 400px;
+    }
+    #banner .bannercontent a {
+        padding: 10px 10px;
+    }
+    #about .about_item:nth-child(2n){
+        border-color: transparent;
+    }
+    #services{
+        background-image: initial;
+    }
+    #services:after{
+        background-color: initial;
+    }
+}
+/* Extra Small */
+@media(max-width:575.98px) {
+    .sec_info h2{
+        font-size: 25px;
+    }
+    .sec_info p{
+        font-size: 8px;
+        line-height: 14px;
+    }
+    #banner .bannercontent h4 {
+        font-size: 10px;
+    }
+    #banner .bannercontent h1 {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    #banner .bannercontent p{
+        font-size: 8px;
+    }
+    #banner .bannercontent a {
+        padding: 10px 5px;
+    }
+    #about .about_item{
+        border-color: transparent;
+        margin: 0;
+    }
+    #services{
+        background-image: initial;
+    }
+    #services:after{
+        background-color: initial;
+    }
+    #services .service_item{
+        text-align: center;
+    }
+    #contact .contact_form button{
+        padding: 7px 10px;
+    }
+}

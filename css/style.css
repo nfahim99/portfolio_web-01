@@ -1,0 +1,234 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,
+span{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+#backtotop{
+    color: #000000;
+    background-color: #676CDB;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+/* nav Section Css Start */
+#nav{
+    background-color: #222A36;
+}
+
+#nav #menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12px 25px;
+}
+
+#nav #menu ul li a:hover{
+    color: #676CDB;
+    background-color: #FFFFFF;
+    transition: all linear 0.5s;
+}
+
+#nav.menu_animate{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    animation: smooth 1s;
+}
+
+@keyframes smooth{
+    0%{
+        top: -150px;
+    }
+    100%{
+        top: 0px;
+        background-color: #000000;
+    }
+}
+/* nav Section Css end */
+
+/* banner Section Css Start */
+#banner .banner_item{
+    background-position: center !important;
+    background-size: cover !important;
+    height: 700px;
+}
+#banner .banner_content{
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 80px;
+}
+
+#banner .banner_content h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
+}
+#banner .banner_content p{
+    font-size: 22px;
+    width: 50%;
+    line-height: 34px;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+#banner .banner_content p span{
+    color: #FFFFFF;
+    opacity: 1;
+}
+#banner .banner_content a{
+    color: #FFFFFF;
+    padding: 20px 20px;
+}
+#banner .banner_content a:hover{
+    background: #676CDB;
+    transition: all linear 0.5s;
+}
+/* banner Section Css end */
+
+/* service Section Css Start */
+#service {
+    background-color: #000000;
+    padding: 30px 0;
+}
+
+/* service Section Css end */
+
+/* portfolio Section Css Start */
+#portfolio{
+    background-color: #222A36;
+    padding: 50px 0;
+}
+#portfolio .h_line h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
+    color: #676CDB;
+}
+#portfolio .h_line h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+#portfolio .portfolio_content h4{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+#portfolio .portfolio_content button{
+    background: none;
+    border: none;
+    background-color: #C4C4C4;
+    padding: 150px 100px 10px 10px;
+    text-align: left;
+    font-weight: 600;
+    
+    
+}
+#portfolio .portfolio_content button:hover{
+    background-color: #676CDB;
+    transition: all linear 0.5s;
+    color: #FFFFFF;
+}
+/* portfolio Section Css end */
+
+/* review Section Css Start */
+#review{
+    background-color: #222A36;
+    opacity: 0.9;
+    padding-bottom: 50px;
+}
+#review .review .review_content{
+    height: 500px;
+    width: 50%;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+    display:block;
+
+}
+#review .review .review_content .overlay{
+    position: absolute;
+    left: 100%;
+    top: 50px;
+    width: 100%;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+#review .review .review_content .overlay i{
+    font-size: 30px;
+}
+#review .review_content .overlay .review_slider_icon .fa-arrow-left{
+    left: 100px;
+    right: auto;
+}
+#review .work_details{
+    font-family: 'Playfair Display', serif;
+
+}
+#review .work_details h5{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+#review .work_details h6{
+    color: #676CDB;
+    font-size: 50px;
+    font-weight: 800;
+}
+/* review Section Css end */
+
+/*  Section Css Start */
+#contact{
+    background-color: #000000;
+    padding: 50px 0;
+
+}
+#contact .social_media h4{
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+#contact .social_media a{
+    padding-right: 40px;
+    padding-top: 40px;
+}
+#contact .contact_form label{
+    text-align: left;
+    color: #FFFFFF ;
+    font-size: 30px;
+}
+#contact .contact_form .form-control{
+    background-color: #000000;
+    border: none;
+    text-align: center;
+}
+#contact .contact_form .form-control:hover{
+    background-color: #676CDB;
+    opacity: 0.5;
+    transition: all linear 0.5s;
+}
+#contact .contact_form button{
+    color: #676CDB;
+    font-size: 30px;
+    display: inline-block;
+    background: none;
+    border: none;
+    text-align: left;
+}
+/*  Section Css end */
